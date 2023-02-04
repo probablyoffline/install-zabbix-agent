@@ -19,6 +19,3 @@ sudo sed -i "s/# RefreshActiveChecks=120/RefreshActiveChecks=120/g" /etc/zabbix/
 
 # Start agent
 sudo systemctl start zabbix-agent.service
-
-# Remove the script
-rm -- "$0"
